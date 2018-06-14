@@ -3,5 +3,11 @@
     <li>
       <%= link_to(product.title, admin_product_path(product)) %>
     </li>
+    <ul>
+      <li><%= product.description %></li>
+      <li><%= product.price %></li>
+      <li><%= product.price %></li>
+      <li><%= product.created_at %></li>
+    </ul>
   <% end %>
 </ul>
