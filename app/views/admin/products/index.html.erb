@@ -34,7 +34,12 @@
           <%= product.price %>
         </td>
         <td>
-          <%= link_to("Edit", edit_admin_product_path(product)) %>
+          <%= link_to( edit_admin_product_path(product),class: "btn btn-sm btn-default") do%>
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+          <% end %>
+          <%= link_to( admin_product_path(product), class: "btn btn-sm btn-danger", :method => :delete, :data => { :confirm => "Are you sure?" }) do%>
+            <i class="fa fa-trash" aria-hidden="true"></i>
+          <% end %>
         </td>
       </tr>
     <% end %>
