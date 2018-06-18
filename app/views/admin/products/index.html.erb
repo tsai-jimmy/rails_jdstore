@@ -40,6 +40,8 @@
           <%= link_to( admin_product_path(product), class: "btn btn-sm btn-danger", :method => :delete, :data => { :confirm => "Are you sure?" }) do%>
             <i class="fa fa-trash" aria-hidden="true"></i>
           <% end %>
+          <%= link_to "向上", move_up_admin_product_path(product),method: :patch, class: "btn btn-sm btn-info" %>
+          <%= link_to "向下", move_down_admin_product_path(product),method: :patch, class: "btn btn-sm btn-info" %>
         </td>
       </tr>
     <% end %>

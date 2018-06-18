@@ -27,3 +27,17 @@ Product.create!(
   quantity: 10,
   image: open("https://kaochenlong.com/images/books/rails.jpg")
 )
+Product.create!(
+  title: "為你自己學Git",
+  description: "高見龍作者",
+  price: 800,
+  quantity: 10,
+  image: open("https://kaochenlong.com/images/books/git.jpg")
+)
+Product.create!(
+  title: "I-watch",
+  description: "購買喔",
+  price: 4600,
+  quantity: 1,
+  image: open("https://www.apple.com/v/watch/compare/e/images/overview/series3_hermes_gps_cellular_large_2x.jpg")
+)
