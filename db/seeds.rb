@@ -41,3 +41,10 @@ Product.create!(
   quantity: 1,
   image: open("https://www.apple.com/v/watch/compare/e/images/overview/series3_hermes_gps_cellular_large_2x.jpg")
 )
+Product.create!(
+  title: "Apple TV",
+  description: "apple 电视盒",
+  price: 56000,
+  quantity: 8,
+  image: open("https://www.apple.com/v/tv/home/c/images/home/hero_hardware_medium.png")
+)
