@@ -7,6 +7,9 @@ Things you may want to cover:
 
 * Ruby version
 
+ruby - `2.3.1`
+rais - `5.0.0`
+
 * System dependencies
 
 * Configuration
@@ -22,3 +25,23 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## [Gem installed]
+
+Good for develop
+
+for bug
+`gem 'byebug'`
+`gem 'pry'`
+
+for model
+`gem 'annotate'`
+
+for console
+`gem 'awesome_rails_console'`
+`gem 'hirb'`
+
+
+
+
+
