@@ -5,7 +5,14 @@ Rails.application.routes.draw do
     resources :orders
   end
   namespace :admin do
-    resources :orders
+    resources :orders do
+      member do
+        post :cancel
+        post :ship
+        post :shipped
+        post :return
+      end
+    end
     resources :products do
       member do
         patch :move_up
