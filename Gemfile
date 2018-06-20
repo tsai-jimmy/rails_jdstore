@@ -38,6 +38,8 @@ gem 'acts_as_list'
 gem 'letter_opener', group: :development
 gem 'aasm'
 gem 'annotate'
+# install AWS S3
+gem 'fog'
 gem 'figaro'
 
 group :development, :test do

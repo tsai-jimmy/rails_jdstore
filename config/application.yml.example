@@ -12,13 +12,13 @@
 
 
  production:
-   qiniu_access_key: xxxx  # 你的 qiniu AccessKey
+   AWS_ACCESS_KEY_ID: "AKIAILB2OYFCS5655LSA"  # 你的 Access key ID
 
-   qiniu_secret_key: xxxx  # 你的 qiniu SecretKey
+   AWS_SECRET_ACCESS_KEY: "xxxx"  # 你的 Secret access key
 
-   qiniu_bucket: xxxx  # 你的 qiniu bucket
+   AWS_REGION: "xxxx"  # 你的 S3 bucket 的 Region 位置
 
-   qiniu_bucket_domain: xxxx  # 你的 qiniu bucket domain
+   AWS_BUCKET_NAME: "xxxx"  # 你设定的 bucket name
    
    SEND_CLOUD_USER_NAME: "xxxx"  # 你的 API_USER
 
@@ -28,13 +28,13 @@
 
 
  development:
-   qiniu_access_key: xxxx  # 你的 qiniu AccessKey
+   AWS_ACCESS_KEY_ID: "xxxx"  # 你的 Access key ID
 
-   qiniu_secret_key: xxxx  # 你的 qiniu SecretKey
+   AWS_SECRET_ACCESS_KEY: "xxxx"  # 你的 Secret access key
 
-   qiniu_bucket: xxxx  # 你的 qiniu bucket
+   AWS_REGION: "xxxx"  # 你的 S3 bucket 的 Region 位置
 
-   qiniu_bucket_domain: xxxx  # 你的 qiniu bucket domain
+   AWS_BUCKET_NAME: "xxxx"  # 你设定的 bucket name
 
    SEND_CLOUD_USER_NAME: "xxxx"  # 你的 API_USER
 
